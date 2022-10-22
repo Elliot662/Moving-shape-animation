@@ -1,4 +1,4 @@
-/* .hello{
+/* .square{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -14,17 +14,17 @@
 
 
 
-.hello {
+.square {
     width: 100px;
     height: 100px;
     background-color: red;
     position: relative;
-    animation-name: example;
+    animation-name: exampleMoving;
     animation-duration: 4s;
     animation-iteration-count: 999999;
   }
   
-  @keyframes example {
+  @keyframes exampleMoving {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
